@@ -1,0 +1,88 @@
+[debug] [2024-04-24T07:47:12.772Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T07:47:12.777Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-24T07:47:12.778Z] CLI Version:   13.7.4
+[debug] [2024-04-24T07:47:12.778Z] Platform:      win32
+[debug] [2024-04-24T07:47:12.778Z] Node Version:  v20.11.1
+[debug] [2024-04-24T07:47:12.778Z] Time:          Wed Apr 24 2024 14:47:12 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T07:47:12.779Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T07:47:12.925Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T07:47:12.926Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\year1\se\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-24T07:47:14.740Z] Using project from CLI flag: assignment11
+[debug] [2024-04-24T07:47:14.747Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
+[debug] [2024-04-24T07:47:15.711Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
+[debug] [2024-04-24T07:47:15.711Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-24T07:47:15.712Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T07:47:15.820Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project assignment11. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-04-24T07:47:19.879Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T07:47:19.884Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2024-04-24T07:47:19.885Z] CLI Version:   13.7.4
+[debug] [2024-04-24T07:47:19.885Z] Platform:      win32
+[debug] [2024-04-24T07:47:19.885Z] Node Version:  v20.11.1
+[debug] [2024-04-24T07:47:19.886Z] Time:          Wed Apr 24 2024 14:47:19 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T07:47:19.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-24T07:47:20.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T07:47:20.047Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\year1\se\GitHubActionPractice
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-24T07:47:22.311Z] Using project from CLI flag: assignment11
+[debug] [2024-04-24T07:47:22.318Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
+[debug] [2024-04-24T07:47:23.190Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
+[debug] [2024-04-24T07:47:23.191Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-24T07:47:23.192Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T07:47:23.291Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project assignment11. Please make sure the project exists and your account has permission to access it.
