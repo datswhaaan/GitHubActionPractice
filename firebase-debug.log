@@ -1,13 +1,13 @@
-[debug] [2024-04-24T07:47:12.772Z] ----------------------------------------------------------------------
-[debug] [2024-04-24T07:47:12.777Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2024-04-24T07:47:12.778Z] CLI Version:   13.7.4
-[debug] [2024-04-24T07:47:12.778Z] Platform:      win32
-[debug] [2024-04-24T07:47:12.778Z] Node Version:  v20.11.1
-[debug] [2024-04-24T07:47:12.778Z] Time:          Wed Apr 24 2024 14:47:12 GMT+0700 (Indochina Time)
-[debug] [2024-04-24T07:47:12.779Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T08:09:39.908Z] ----------------------------------------------------------------------
+[debug] [2024-04-24T08:09:39.913Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2024-04-24T08:09:39.913Z] CLI Version:   13.7.4
+[debug] [2024-04-24T08:09:39.914Z] Platform:      win32
+[debug] [2024-04-24T08:09:39.914Z] Node Version:  v20.11.1
+[debug] [2024-04-24T08:09:39.914Z] Time:          Wed Apr 24 2024 15:09:39 GMT+0700 (Indochina Time)
+[debug] [2024-04-24T08:09:39.914Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-04-24T07:47:12.925Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-24T07:47:12.926Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
+[debug] [2024-04-24T08:09:40.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-24T08:09:40.062Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,115 +31,14 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2024-04-24T07:47:14.740Z] Using project from CLI flag: assignment11
-[debug] [2024-04-24T07:47:14.747Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
-[debug] [2024-04-24T07:47:15.711Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
-[debug] [2024-04-24T07:47:15.711Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2024-04-24T07:47:15.712Z] HTTP Error: 403, The caller does not have permission
-[debug] [2024-04-24T07:47:15.820Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T08:09:45.234Z] Using project from CLI flag: assignment11
+[debug] [2024-04-24T08:09:45.240Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
+[debug] [2024-04-24T08:09:45.798Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
+[debug] [2024-04-24T08:09:45.798Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-24T08:09:45.799Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-24T08:09:45.905Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project assignment11. Please make sure the project exists and your account has permission to access it.
-[debug] [2024-04-24T07:47:19.879Z] ----------------------------------------------------------------------
-[debug] [2024-04-24T07:47:19.884Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js init emulators
-[debug] [2024-04-24T07:47:19.885Z] CLI Version:   13.7.4
-[debug] [2024-04-24T07:47:19.885Z] Platform:      win32
-[debug] [2024-04-24T07:47:19.885Z] Node Version:  v20.11.1
-[debug] [2024-04-24T07:47:19.886Z] Time:          Wed Apr 24 2024 14:47:19 GMT+0700 (Indochina Time)
-[debug] [2024-04-24T07:47:19.886Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-04-24T07:47:20.045Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-24T07:47:20.047Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\year1\se\GitHubActionPractice
-
-Before we get started, keep in mind:
-
-  * You are currently outside your home directory
-  * You are initializing within an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2024-04-24T07:47:22.311Z] Using project from CLI flag: assignment11
-[debug] [2024-04-24T07:47:22.318Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
-[debug] [2024-04-24T07:47:23.190Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
-[debug] [2024-04-24T07:47:23.191Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2024-04-24T07:47:23.192Z] HTTP Error: 403, The caller does not have permission
-[debug] [2024-04-24T07:47:23.291Z] FirebaseError: HTTP Error: 403, The caller does not have permission
-    at responseToError (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\responseToError.js:49:12)
-    at RetryOperation._fn (C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\apiv2.js:299:77)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[error] 
-[error] Error: Failed to get Firebase project assignment11. Please make sure the project exists and your account has permission to access it.
-[debug] [2024-04-24T07:48:10.233Z] ----------------------------------------------------------------------
-[debug] [2024-04-24T07:48:10.237Z] Command:       C:\Program Files\nodejs\node.exe C:\year1\se\GitHubActionPractice\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2024-04-24T07:48:10.238Z] CLI Version:   13.7.4
-[debug] [2024-04-24T07:48:10.238Z] Platform:      win32
-[debug] [2024-04-24T07:48:10.239Z] Node Version:  v20.11.1
-[debug] [2024-04-24T07:48:10.239Z] Time:          Wed Apr 24 2024 14:48:10 GMT+0700 (Indochina Time)
-[debug] [2024-04-24T07:48:10.239Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-04-24T07:48:10.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-04-24T07:48:10.449Z] > authorizing via signed-in user (penpitcha2547@gmail.com)
-[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
-[debug] [2024-04-24T07:48:10.469Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-04-24T07:48:10.469Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2024-04-24T07:48:10.470Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2024-04-24T07:48:10.480Z] [hub] writing locator at C:\Users\penpi\AppData\Local\Temp\hub-assignment11.json
-[debug] [2024-04-24T07:48:10.519Z] > refreshing access token with scopes: []
-[debug] [2024-04-24T07:48:10.523Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
-[debug] [2024-04-24T07:48:10.523Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-04-24T07:48:10.731Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
-[debug] [2024-04-24T07:48:10.732Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2024-04-24T07:48:10.742Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/assignment11/sites 
-[debug] [2024-04-24T07:48:11.632Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/assignment11/sites 404
-[debug] [2024-04-24T07:48:11.633Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/assignment11/sites {"error":{"code":404,"message":"project `assignment11` doesn't exist","status":"NOT_FOUND"}}
-[debug] [2024-04-24T07:48:11.634Z] Failed to list hosting sites
-[debug] HTTP Error: 404, project `assignment11` doesn't exist
-[debug] [2024-04-24T07:48:11.635Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11/webApps/-/config [none]
-[debug] [2024-04-24T07:48:12.292Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11/webApps/-/config 403
-[debug] [2024-04-24T07:48:12.292Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11/webApps/-/config {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2024-04-24T07:48:12.292Z] fetchWebSetup error: FirebaseError: HTTP Error: 403, The caller does not have permission
-[warn] !  hosting: Authentication error when trying to fetch your current web app configuration, have you run firebase login? 
-[warn] !  hosting: Could not fetch web app configuration and there is no cached configuration on this machine. Check your internet connection and make sure you are authenticated. To continue, you must call firebase.initializeApp({...}) in your code before using Firebase. 
-[debug] [2024-04-24T07:48:12.297Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 [none]
-[debug] [2024-04-24T07:48:12.909Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 403
-[debug] [2024-04-24T07:48:12.909Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment11 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2024-04-24T07:48:12.910Z] HTTP Error: 403, The caller does not have permission
-[info] i  hosting[assignment11]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
-[info] +  hosting[assignment11]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-└─────────────────────────────────────────────────────────────┘
-
-┌──────────┬────────────────┐
-│ Emulator │ Host:Port      │
-├──────────┼────────────────┤
-│ Hosting  │ 127.0.0.1:5000 │
-└──────────┴────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] "GET / HTTP/1.1" 200 385 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] \"GET / HTTP/1.1\" 200 385 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\""}}
-[info] i  hosting: 127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] "GET /favicon.ico HTTP/1.1" 304 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [24/Apr/2024:07:48:25 +0000] \"GET /favicon.ico HTTP/1.1\" 304 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\""}}
